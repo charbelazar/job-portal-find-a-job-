@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="jquery-3.3.1.js"></script>
+<script src="function.js"></script>
+
+
+
+
+
+
+</head>
+
+<body>
+<h2>jQuery input filter showcase</h2>
+<p>This will correctly handle Copy+Paste, Drag+Drop, keyboard shortcuts, context menu operations, non-typeable keys, the cursor position, all keyboard layouts and <a href="https://caniuse.com/#search=oninput" target="_blank">all browsers since IE 9</a>.</p>
+<p>There is also a <a href="https://jsfiddle.net/emkey08/zgvtjc51" target="_blank">pure JavaScript version</a> of this (without jQuery).</p>
+<table>
+  <tr><td>Integer (both positive and negative):</td><td><input id="intTextBox"></td></tr>
+  <tr><td>Integer (positive only):</td><td><input id="uintTextBox"></td></tr>
+  <tr><td>Integer (positive and &lt;= 500):</td><td><input id="intLimitTextBox"></td></tr>
+  <tr><td>Floating point (use . or , as decimal separator):</td><td><input id="floatTextBox"></td></tr>
+  <tr><td>Currency (at most two decimal places):</td><td><input id="currencyTextBox"></td></tr>
+  <tr><td>Hexadecimal:</td><td><input id="hexTextBox"></td></tr>
+</table>
+
+</body>
+</html>
